@@ -23,6 +23,8 @@ void main(void) {
         return;
     }
 
+    //ret = gpio_pin_configure(input_dev, INPUT_PIN, GPIO_INPUT | GPIO_PULL_UP);
+
     while (1) {
         val = gpio_pin_get(input_dev, INPUT_PIN);
         printk("Valor do PTE20: %d\n", val);
