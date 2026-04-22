@@ -3,7 +3,8 @@
 #include <zephyr/devicetree.h>
 #include <zephyr/drivers/gpio.h>       // API para controle de pinos de entrada/saída (GPIO)
 
-#define INPUT_PORT  "gpio@400ff100"   // Porta D = GPIO_3 no seu .dts
+#define INPUT_PORT  "gpio@400ff100"   // Porta E configurada com endereço direto
+                                      // Pegue o endereço no zephyr.dts dentro de pio \ build
 #define INPUT_PIN   20         // PTE20
 
 void main(void) {
@@ -23,7 +24,7 @@ void main(void) {
         return;
     }
 
-    //ret = gpio_pin_configure(input_dev, INPUT_PIN, GPIO_INPUT | GPIO_PULL_UP);
+    ret = gpio_pin_configure(input_dev, INPUT_PIN, GPIO_INPUT | GPIO_PULL_UP);
 
     while (1) {
         val = gpio_pin_get(input_dev, INPUT_PIN);
