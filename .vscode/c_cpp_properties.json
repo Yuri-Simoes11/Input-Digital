@@ -10,7 +10,6 @@
             "includePath": [
                 "c:/Users/Users/Documents/PlatformIO/Projects/260415-093246-zephyr-blink-inputdig/include",
                 "c:/Users/Users/Documents/PlatformIO/Projects/260415-093246-zephyr-blink-inputdig/src",
-                "c:/Users/Users/Documents/PlatformIO/Projects/260415-093246-zephyr-blink-inputdig/lib/pwm",
                 "C:/Users/Users/Documents/PlatformIO/Projects/260415-093246-zephyr-blink-inputdig/.pio/build/frdm_kl25z/zephyr/include/generated/zephyr",
                 "C:/Users/Users/.platformio/packages/framework-zephyr/include",
                 "C:/Users/Users/Documents/PlatformIO/Projects/260415-093246-zephyr-blink-inputdig/.pio/build/frdm_kl25z/zephyr/include/generated",
@@ -25,6 +24,7 @@
                 "C:/Users/Users/.platformio/packages/framework-zephyr/_pio/modules/hal/nxp/mcux/mcux-sdk-ng/drivers/common",
                 "C:/Users/Users/.platformio/packages/framework-zephyr/_pio/modules/hal/nxp/mcux/mcux-sdk-ng/drivers/lpsci",
                 "C:/Users/Users/.platformio/packages/framework-zephyr/_pio/modules/hal/nxp/mcux/mcux-sdk-ng/drivers/port",
+                "c:/Users/Users/Documents/PlatformIO/Projects/260415-093246-zephyr-blink-inputdig/lib/pwm",
                 ""
             ],
             "browse": {
@@ -32,7 +32,6 @@
                 "path": [
                     "c:/Users/Users/Documents/PlatformIO/Projects/260415-093246-zephyr-blink-inputdig/include",
                     "c:/Users/Users/Documents/PlatformIO/Projects/260415-093246-zephyr-blink-inputdig/src",
-                    "c:/Users/Users/Documents/PlatformIO/Projects/260415-093246-zephyr-blink-inputdig/lib/pwm",
                     "C:/Users/Users/Documents/PlatformIO/Projects/260415-093246-zephyr-blink-inputdig/.pio/build/frdm_kl25z/zephyr/include/generated/zephyr",
                     "C:/Users/Users/.platformio/packages/framework-zephyr/include",
                     "C:/Users/Users/Documents/PlatformIO/Projects/260415-093246-zephyr-blink-inputdig/.pio/build/frdm_kl25z/zephyr/include/generated",
@@ -47,6 +46,7 @@
                     "C:/Users/Users/.platformio/packages/framework-zephyr/_pio/modules/hal/nxp/mcux/mcux-sdk-ng/drivers/common",
                     "C:/Users/Users/.platformio/packages/framework-zephyr/_pio/modules/hal/nxp/mcux/mcux-sdk-ng/drivers/lpsci",
                     "C:/Users/Users/.platformio/packages/framework-zephyr/_pio/modules/hal/nxp/mcux/mcux-sdk-ng/drivers/port",
+                    "c:/Users/Users/Documents/PlatformIO/Projects/260415-093246-zephyr-blink-inputdig/lib/pwm",
                     ""
                 ]
             },
